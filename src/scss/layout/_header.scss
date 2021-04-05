@@ -2,7 +2,7 @@
   width: 100%;
   height: rem(111);
   @include tablet {
-    max-width: rem(1100);
+    max-width: rem(1400);
     margin: auto;
   }
 
@@ -12,7 +12,7 @@
     margin: auto;
     padding: rem(31) rem(79) rem(30) rem(40);
     @include tablet {
-      margin-left: 0;
+      margin-left: rem(20);
       max-width: rem(1100);
       padding: rem(31) rem(79) rem(30) 0;
     }

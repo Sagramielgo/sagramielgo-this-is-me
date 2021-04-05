@@ -1,15 +1,15 @@
 .form {
   width: 100%;
   @include tablet {
-    max-width: rem(399);
+    max-width: rem(440);
   }
 
   &__wrapper {
-    width: rem(320);
+    width: rem(440);
     margin: auto;
     padding: rem(27) rem(20) rem(30);
     @include tablet {
-      margin-left: rem(40);
+      margin-left: rem(20);
     }
   }
 }
